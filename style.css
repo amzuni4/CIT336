@@ -1,0 +1,275 @@
+body{
+ background-image: url("../images/site/background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#container{
+ width: 90%;
+ background-color: #fff;
+ margin: 0 auto;
+}
+
+/*--------------------------HEADER--------------------------*/
+header{
+ padding: 5px;
+}
+header div{
+ display: flex;
+ justify-content: space-between;
+}
+
+header img{
+ max-width: 40%;
+ height: 90px;
+}
+
+.account img{
+ width: 10%;
+ height: 20px;
+}
+
+.account {
+ text-align: right;
+}
+
+.account a{
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+}
+
+/*--------------------------NAV--------------------------*/
+nav{
+ background-color: #de2226;
+}
+nav a{
+ text-decoration: none;
+ color: #fff;
+}
+nav li{
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+.navigation{
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+ padding-left: 0;
+}
+
+.navigation a:hover{
+ background-color: #fff;
+ color: #de2226;
+ padding: 5px;
+}
+
+/*--------------------------MAIN--------------------------*/
+main {
+ padding: 5px;
+
+
+}
+
+main ul{
+
+ color:#990033;
+}
+
+#actionbtn{
+ max-height: 30px;
+
+}
+.bottom ul{
+ color:black;
+ text-decoration: none;
+}
+.herodiv{
+ margin: 10px auto;
+ position: relative;
+
+}
+.herodiv img{
+ max-width: 100%;
+}
+
+.stats {
+ position: absolute;
+ top: 225px;
+ right: 10px;
+
+ padding: 1.5rem;
+ ;
+
+}
+.stats li{
+ list-style-type: none;
+ font-size: 10px;
+
+}
+/*-------------------------FOOTER-------------------------
+*/
+
+footer{
+ padding: 5px;
+ text-align: center;
+}
+
+hr{
+ background-color: black;
+ height: 3px;
+}
+
+.cover {
+ display: grid;
+ grid-template-columns: 50% 50%;
+ margin: 1%; 
+text-align: center;
+grid-column-gap: 10px;
+padding: 5%;
+}
+
+.cover img{
+ background-color: #808080;
+}
+
+.img{
+ background-color: #808080;
+}
+
+
+/*-------------------------HomePage img-------------------------*/
+
+.homeImg img{
+ position: relative;
+ max-width: 100%;
+}
+
+
+
+
+/*--------------------------------------------------------------------------
+                                MEDIUM SCREEN
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 45em) {
+
+ /*--------------------------HEADER--------------------------*/
+ header img{
+  max-width: 60%;
+  height: 100px;
+ }
+
+
+ /*--------------------------MAIN--------------------------*/
+ .bottom{
+  display: flex;
+  flex-direction: row-reverse;
+ }
+ 
+ .cover img{
+ background-color: #808080;
+ width:80px;
+}
+
+ #actionbtn{
+  max-height: 50px;
+
+ }
+ .herodiv{
+  margin: 10px auto;
+  position: relative;
+
+ }
+
+ .herodiv img{
+  width: 100%;
+ }
+ .stats {
+  position: absolute;
+  top: 230px;
+  right: 50px;
+  background: radial-gradient(#eee, #4567aa;);
+
+  padding: 1.5rem;
+
+ }
+ .stats h2{
+  margin-bottom: 5px;
+ }
+ .stats li{
+  list-style-type: none;
+  font-size: 20px;
+  margin-top: 5px;
+
+ }
+
+ .div img{
+  height: 80px;
+ }
+
+}
+
+
+
+/*--------------------------------------------------------------------------
+                                LARGE SCREEN
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 64em) {
+
+ /*--------------------------HEADER--------------------------*/
+ header img{
+  max-width: 100%;
+  height: auto;
+ }
+
+ /*--------------------------MAIN--------------------------*/
+
+ 
+ .featRecipes, .reviewBox{
+ width: 50%;
+ padding: 2%;
+ font-size: 30px;
+}
+
+ .div img{
+  height: 1220px;
+ }
+.
+ #actionbtn{
+  max-height: 600px;
+
+ }
+ .herodiv{
+  margin: 10px auto;
+  position: relative;
+
+ }
+
+ .herodiv img{
+  width: 100%;
+ }
+ .stats {
+  position: absolute;
+  top: 330px;
+  right: 100px;
+  background: radial-gradient(#eee, #4567aa);
+
+  padding: 1.5rem;
+
+ }
+ .stats h2{
+  margin-bottom: 5px;
+ }
+ .stats li{
+  list-style-type: none;
+  font-size: 30px;
+  margin-top: 5px;
+
+ }
+ .cover img{
+ background-color: #808080;
+ width: 100px;
+}
+ 
+}
